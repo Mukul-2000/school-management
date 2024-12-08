@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5",                        // Transpile to ES5 for compatibility
+      "lib": ["dom", "esnext"],                // Include necessary libraries
+      "jsx": "react-jsx",                     // Use the new JSX Transform
+      "moduleResolution": "node",              // Ensure compatibility with Node.js module resolution
+      "strict": true,                          // Enable all strict type checking options
+      "esModuleInterop": true,                 // Allow compatibility with commonjs modules
+      "skipLibCheck": true,                    // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true // Ensure consistent file naming
+    },
+    "include": [
+      "src/**/*"  // Include all files in the src directory
+    ],
+    "exclude": [
+      "node_modules"  // Exclude the node_modules folder
+    ]
+  }
+  

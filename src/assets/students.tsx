@@ -1,0 +1,278 @@
+export const studentsListData = [
+    {
+      name: "Aryan Sharma",
+      email: "mukulsindhu@example.com",
+      class: "1",
+      school: "Green Valley School",
+      rollNo: "1",
+      gender: "Male",
+      dob: "2017-04-15",
+      id: "1",
+      password: "123456"
+    },
+    {
+      name: "Meera Gupta",
+      email: "meera.gupta@example.com",
+      class: "5",
+      school: "Blue Bell Academy",
+      rollNo: "2",
+      gender: "Female",
+      dob: "2013-06-12",
+      id: "2",
+      password: "123456"
+    },
+    {
+      name: "Rohan Das",
+      email: "rohan.das@example.com",
+      class: "12",
+      school: "Springfield High",
+      rollNo: "3",
+      gender: "Male",
+      dob: "2006-01-08",
+      id: "3",
+      password: "123456"
+    },
+    {
+      name: "Ananya Roy",
+      email: "ananya.roy@example.com",
+      class: "1",
+      school: "Green Valley School",
+      rollNo: "4",
+      gender: "Female",
+      dob: "2017-10-30",
+      id: "4",
+      password: "123456"
+    },
+    {
+      name: "Kabir Khan",
+      email: "kabir.khan@example.com",
+      class: "5",
+      school: "Blue Bell Academy",
+      rollNo: "5",
+      gender: "Male",
+      dob: "2013-03-25",
+      id: "5",
+      password: "123456"
+    },
+    {
+      name: "Simran Kaur",
+      email: "simran.kaur@example.com",
+      class: "12",
+      school: "Springfield High",
+      rollNo: "6",
+      gender: "Female",
+      dob: "2006-09-15",
+      id: "6",
+      password: "123456"
+    },
+    {
+      name: "Rahul Verma",
+      email: "rahul.verma@example.com",
+      class: "1",
+      school: "Green Valley School",
+      rollNo: "7",
+      gender: "Male",
+      dob: "2017-11-02",
+      id: "7",
+      password: "123456"
+    },
+    {
+      name: "Isha Mehta",
+      email: "isha.mehta@example.com",
+      class: "5",
+      school: "Blue Bell Academy",
+      rollNo: "8",
+      gender: "Female",
+      dob: "2013-05-21",
+      id: "8",
+      password: "123456"
+    },
+    {
+      name: "Arjun Reddy",
+      email: "arjun.reddy@example.com",
+      class: "12",
+      school: "Springfield High",
+      rollNo: "9",
+      gender: "Male",
+      dob: "2006-12-10",
+      id: "9",
+      password: "123456"
+    },
+    {
+      name: "Tanya Singh",
+      email: "tanya.singh@example.com",
+      class: "1",
+      school: "Green Valley School",
+      rollNo: "10",
+      gender: "Female",
+      dob: "2017-02-17",
+      id: "10",
+      password: "123456"
+    },
+    {
+      name: "Vedant Mishra",
+      email: "vedant.mishra@example.com",
+      class: "5",
+      school: "Blue Bell Academy",
+      rollNo: "11",
+      gender: "Male",
+      dob: "2013-08-14",
+      id: "11",
+      password: "123456"
+    },
+    {
+      name: "Priya Iyer",
+      email: "priya.iyer@example.com",
+      class: "12",
+      school: "Springfield High",
+      rollNo: "12",
+      gender: "Female",
+      dob: "2006-06-03",
+      id: "12",
+      password: "123456"
+    },
+    {
+      name: "Manav Joshi",
+      email: "manav.joshi@example.com",
+      class: "1",
+      school: "Green Valley School",
+      rollNo: "13",
+      gender: "Male",
+      dob: "2017-07-24",
+      id: "13",
+      password: "123456"
+    },
+    {
+      name: "Riya Kapoor",
+      email: "riya.kapoor@example.com",
+      class: "5",
+      school: "Blue Bell Academy",
+      rollNo: "14",
+      gender: "Female",
+      dob: "2013-11-19",
+      id: "14",
+      password: "123456"
+    },
+    {
+      name: "Kunal Patel",
+      email: "kunal.patel@example.com",
+      class: "12",
+      school: "Springfield High",
+      rollNo: "15",
+      gender: "Male",
+      dob: "2006-03-07",
+      id: "15",
+      password: "123456"
+    },
+    {
+      name: "Anushka Das",
+      email: "anushka.das@example.com",
+      class: "1",
+      school: "Green Valley School",
+      rollNo: "16",
+      gender: "Female",
+      dob: "2017-09-08",
+      id: "16",
+      password: "123456"
+    },
+    {
+      name: "Vikram Sinha",
+      email: "vikram.sinha@example.com",
+      class: "5",
+      school: "Blue Bell Academy",
+      rollNo: "17",
+      gender: "Male",
+      dob: "2013-01-16",
+      id: "17",
+      password: "123456"
+    },
+    {
+      name: "Pooja Chauhan",
+      email: "pooja.chauhan@example.com",
+      class: "12",
+      school: "Springfield High",
+      rollNo: "18",
+      gender: "Female",
+      dob: "2006-05-22",
+      id: "18",
+      password: "123456"
+    },
+    {
+      name: "Aditya Nair",
+      email: "aditya.nair@example.com",
+      class: "1",
+      school: "Green Valley School",
+      rollNo: "19",
+      gender: "Male",
+      dob: "2017-03-11",
+      id: "19",
+      password: "123456"
+    },
+    {
+      name: "Sneha Agarwal",
+      email: "sneha.agarwal@example.com",
+      class: "5",
+      school: "Blue Bell Academy",
+      rollNo: "20",
+      gender: "Female",
+      dob: "2013-04-18",
+      id: "20",
+      password: "123456"
+    },
+    {
+      name: "Ravi Kulkarni",
+      email: "ravi.kulkarni@example.com",
+      class: "12",
+      school: "Springfield High",
+      rollNo: "21",
+      gender: "Male",
+      dob: "2006-10-30",
+      id: "21",
+      password: "123456"
+    },
+    {
+      name: "Nisha Thakur",
+      email: "nisha.thakur@example.com",
+      class: "1",
+      school: "Green Valley School",
+      rollNo: "22",
+      gender: "Female",
+      dob: "2017-12-29",
+      id: "22",
+      password: "123456"
+    },
+    {
+      name: "Harshit Jain",
+      email: "harshit.jain@example.com",
+      class: "5",
+      school: "Blue Bell Academy",
+      rollNo: "23",
+      gender: "Male",
+      dob: "2013-07-09",
+      id: "23",
+      password: "123456"
+    },
+    {
+      name: "Avni Bhatt",
+      email: "avni.bhatt@example.com",
+      class: "12",
+      school: "Springfield High",
+      rollNo: "24",
+      gender: "Female",
+      dob: "2006-11-13",
+      id: "24",
+      password: "123456"
+    },
+    {
+      name: "Ishaan Saxena",
+      email: "ishaan.saxena@example.com",
+      class: "1",
+      school: "Green Valley School",
+      rollNo: "25",
+      gender: "Male",
+      dob: "2017-01-05",
+      id: "25",
+      password: "123456"
+    }
+  ];
+  

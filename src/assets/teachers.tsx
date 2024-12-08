@@ -1,0 +1,278 @@
+export const teachersListData = [
+    {
+      name: "Rajesh Kumar",
+      email: "mukulsindhu@example.com",
+      class: ["1", "5"],
+      school: "Green Valley School",
+      subject: "Mathematics",
+      gender: "Male",
+      dob: "1985-08-15",
+      id: "1",
+      password: "123456"
+    },
+    {
+      name: "Meera Sharma",
+      email: "meera.sharma@example.com",
+      class: ["3", "7", "12"],
+      school: "Blue Bell Academy",
+      subject: "English",
+      gender: "Female",
+      dob: "1990-04-22",
+      id: "2",
+      password: "123456"
+    },
+    {
+      name: "Amit Verma",
+      email: "amit.verma@example.com",
+      class: ["5", "8"],
+      school: "Springfield High",
+      subject: "Science",
+      gender: "Male",
+      dob: "1982-09-11",
+      id: "3",
+      password: "123456"
+    },
+    {
+      name: "Anjali Gupta",
+      email: "anjali.gupta@example.com",
+      class: ["4", "6"],
+      school: "Green Valley School",
+      subject: "Social Studies",
+      gender: "Female",
+      dob: "1987-12-03",
+      id: "4",
+      password: "123456"
+    },
+    {
+      name: "Vikas Nair",
+      email: "vikas.nair@example.com",
+      class: ["1", "2"],
+      school: "Blue Bell Academy",
+      subject: "Hindi",
+      gender: "Male",
+      dob: "1980-03-29",
+      id: "5",
+      password: "123456"
+    },
+    {
+      name: "Kavita Joshi",
+      email: "kavita.joshi@example.com",
+      class: ["9", "11"],
+      school: "Springfield High",
+      subject: "Physics",
+      gender: "Female",
+      dob: "1992-07-16",
+      id: "6",
+      password: "123456"
+    },
+    {
+      name: "Rahul Sinha",
+      email: "rahul.sinha@example.com",
+      class: ["6", "10"],
+      school: "Green Valley School",
+      subject: "Chemistry",
+      gender: "Male",
+      dob: "1984-11-08",
+      id: "7",
+      password: "123456"
+    },
+    {
+      name: "Priya Iyer",
+      email: "priya.iyer@example.com",
+      class: ["3", "7"],
+      school: "Blue Bell Academy",
+      subject: "Biology",
+      gender: "Female",
+      dob: "1995-05-20",
+      id: "8",
+      password: "123456"
+    },
+    {
+      name: "Aditya Roy",
+      email: "aditya.roy@example.com",
+      class: ["12"],
+      school: "Springfield High",
+      subject: "Economics",
+      gender: "Male",
+      dob: "1988-01-25",
+      id: "9",
+      password: "123456"
+    },
+    {
+      name: "Nisha Patel",
+      email: "nisha.patel@example.com",
+      class: ["4", "8"],
+      school: "Green Valley School",
+      subject: "Mathematics",
+      gender: "Female",
+      dob: "1991-09-18",
+      id: "10",
+      password: "123456"
+    },
+    {
+      name: "Rohan Desai",
+      email: "rohan.desai@example.com",
+      class: ["5", "9"],
+      school: "Blue Bell Academy",
+      subject: "History",
+      gender: "Male",
+      dob: "1986-02-14",
+      id: "11",
+      password: "123456"
+    },
+    {
+      name: "Simran Kaur",
+      email: "simran.kaur@example.com",
+      class: ["1", "2", "3"],
+      school: "Springfield High",
+      subject: "Geography",
+      gender: "Female",
+      dob: "1989-06-10",
+      id: "12",
+      password: "123456"
+    },
+    {
+      name: "Arjun Kapoor",
+      email: "arjun.kapoor@example.com",
+      class: ["11", "12"],
+      school: "Green Valley School",
+      subject: "Computer Science",
+      gender: "Male",
+      dob: "1983-04-05",
+      id: "13",
+      password: "123456"
+    },
+    {
+      name: "Neha Mishra",
+      email: "neha.mishra@example.com",
+      class: ["6", "7"],
+      school: "Blue Bell Academy",
+      subject: "Mathematics",
+      gender: "Female",
+      dob: "1990-11-03",
+      id: "14",
+      password: "123456"
+    },
+    {
+      name: "Ishaan Saxena",
+      email: "ishaan.saxena@example.com",
+      class: ["10", "12"],
+      school: "Springfield High",
+      subject: "Physics",
+      gender: "Male",
+      dob: "1981-12-20",
+      id: "15",
+      password: "123456"
+    },
+    {
+      name: "Pooja Agarwal",
+      email: "pooja.agarwal@example.com",
+      class: ["8", "9"],
+      school: "Green Valley School",
+      subject: "Chemistry",
+      gender: "Female",
+      dob: "1988-08-07",
+      id: "16",
+      password: "123456"
+    },
+    {
+      name: "Vikram Reddy",
+      email: "vikram.reddy@example.com",
+      class: ["4", "5"],
+      school: "Blue Bell Academy",
+      subject: "English",
+      gender: "Male",
+      dob: "1985-03-12",
+      id: "17",
+      password: "123456"
+    },
+    {
+      name: "Tanya Bhatt",
+      email: "tanya.bhatt@example.com",
+      class: ["1", "3"],
+      school: "Springfield High",
+      subject: "Social Studies",
+      gender: "Female",
+      dob: "1993-07-25",
+      id: "18",
+      password: "123456"
+    },
+    {
+      name: "Manav Gupta",
+      email: "manav.gupta@example.com",
+      class: ["6", "11"],
+      school: "Green Valley School",
+      subject: "Economics",
+      gender: "Male",
+      dob: "1987-05-15",
+      id: "19",
+      password: "123456"
+    },
+    {
+      name: "Riya Jain",
+      email: "riya.jain@example.com",
+      class: ["2", "3"],
+      school: "Blue Bell Academy",
+      subject: "Biology",
+      gender: "Female",
+      dob: "1992-09-01",
+      id: "20",
+      password: "123456"
+    },
+    {
+      name: "Harish Kulkarni",
+      email: "harish.kulkarni@example.com",
+      class: ["7", "9"],
+      school: "Springfield High",
+      subject: "History",
+      gender: "Male",
+      dob: "1980-01-30",
+      id: "21",
+      password: "123456"
+    },
+    {
+      name: "Sneha Thakur",
+      email: "sneha.thakur@example.com",
+      class: ["8", "10"],
+      school: "Green Valley School",
+      subject: "Chemistry",
+      gender: "Female",
+      dob: "1986-12-15",
+      id: "22",
+      password: "123456"
+    },
+    {
+      name: "Ajay Chopra",
+      email: "ajay.chopra@example.com",
+      class: ["12"],
+      school: "Blue Bell Academy",
+      subject: "Physics",
+      gender: "Male",
+      dob: "1982-10-22",
+      id: "23",
+      password: "123456"
+    },
+    {
+      name: "Avni Shah",
+      email: "avni.shah@example.com",
+      class: ["5", "6"],
+      school: "Springfield High",
+      subject: "Geography",
+      gender: "Female",
+      dob: "1991-04-08",
+      id: "24",
+      password: "123456"
+    },
+    {
+      name: "Nikhil Mehta",
+      email: "nikhil.mehta@example.com",
+      class: ["1", "2"],
+      school: "Green Valley School",
+      subject: "Hindi",
+      gender: "Male",
+      dob: "1989-06-17",
+      id: "25",
+      password: "123456"
+    }
+  ];
+  
