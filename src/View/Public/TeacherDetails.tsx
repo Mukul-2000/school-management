@@ -2,6 +2,7 @@
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
 import { teachersListData } from "../../assets/teachers";
+import { BsPeople, BsPeopleFill } from "react-icons/bs";
 
 
 
@@ -17,8 +18,8 @@ export default function TeacherDetails(){
         <>
             <Container className="py-4">
                         <Button className="btn-primary mb-3" onClick={() => navigate(-1)}>Back</Button>
-                        <h4 className="mb-4">Teacher Details</h4> 
-                        <Card className="w-100">
+                        <h4 className="mb-4">Teacher Details<span>  <BsPeopleFill /></span></h4> 
+                        <Card className="w-100 shadow">
                         <Card.Img
                             variant="top"
                             src={"https://picsum.photos/300"}

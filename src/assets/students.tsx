@@ -1,7 +1,7 @@
 export const studentsListData = [
     {
       name: "Aryan Sharma",
-      email: "mukulsindhu@example.com",
+      email: "mukulsindhutest@gmail.com",
       class: "1",
       school: "Green Valley School",
       rollNo: "1",
@@ -12,7 +12,7 @@ export const studentsListData = [
     },
     {
       name: "Meera Gupta",
-      email: "meera.gupta@example.com",
+      email: "meera.gupta@gmail.com",
       class: "5",
       school: "Blue Bell Academy",
       rollNo: "2",
@@ -23,7 +23,7 @@ export const studentsListData = [
     },
     {
       name: "Rohan Das",
-      email: "rohan.das@example.com",
+      email: "rohan.das@gmail.com",
       class: "12",
       school: "Springfield High",
       rollNo: "3",
@@ -34,8 +34,8 @@ export const studentsListData = [
     },
     {
       name: "Ananya Roy",
-      email: "ananya.roy@example.com",
-      class: "1",
+      email: "ananya.roy@gmail.com",
+      class: "3",
       school: "Green Valley School",
       rollNo: "4",
       gender: "Female",
@@ -45,8 +45,8 @@ export const studentsListData = [
     },
     {
       name: "Kabir Khan",
-      email: "kabir.khan@example.com",
-      class: "5",
+      email: "kabir.khan@gmail.com",
+      class: "4",
       school: "Blue Bell Academy",
       rollNo: "5",
       gender: "Male",
@@ -56,8 +56,8 @@ export const studentsListData = [
     },
     {
       name: "Simran Kaur",
-      email: "simran.kaur@example.com",
-      class: "12",
+      email: "simran.kaur@gmail.com",
+      class: "6",
       school: "Springfield High",
       rollNo: "6",
       gender: "Female",
@@ -67,8 +67,8 @@ export const studentsListData = [
     },
     {
       name: "Rahul Verma",
-      email: "rahul.verma@example.com",
-      class: "1",
+      email: "rahul.verma@gmail.com",
+      class: "7",
       school: "Green Valley School",
       rollNo: "7",
       gender: "Male",
@@ -78,8 +78,8 @@ export const studentsListData = [
     },
     {
       name: "Isha Mehta",
-      email: "isha.mehta@example.com",
-      class: "5",
+      email: "isha.mehta@gmail.com",
+      class: "8",
       school: "Blue Bell Academy",
       rollNo: "8",
       gender: "Female",
@@ -89,8 +89,8 @@ export const studentsListData = [
     },
     {
       name: "Arjun Reddy",
-      email: "arjun.reddy@example.com",
-      class: "12",
+      email: "arjun.reddy@gmail.com",
+      class: "9",
       school: "Springfield High",
       rollNo: "9",
       gender: "Male",
@@ -100,8 +100,8 @@ export const studentsListData = [
     },
     {
       name: "Tanya Singh",
-      email: "tanya.singh@example.com",
-      class: "1",
+      email: "tanya.singh@gmail.com",
+      class: "10",
       school: "Green Valley School",
       rollNo: "10",
       gender: "Female",
@@ -111,8 +111,8 @@ export const studentsListData = [
     },
     {
       name: "Vedant Mishra",
-      email: "vedant.mishra@example.com",
-      class: "5",
+      email: "vedant.mishra@gmail.com",
+      class: "",
       school: "Blue Bell Academy",
       rollNo: "11",
       gender: "Male",
@@ -122,7 +122,7 @@ export const studentsListData = [
     },
     {
       name: "Priya Iyer",
-      email: "priya.iyer@example.com",
+      email: "priya.iyer@gmail.com",
       class: "12",
       school: "Springfield High",
       rollNo: "12",
@@ -133,7 +133,7 @@ export const studentsListData = [
     },
     {
       name: "Manav Joshi",
-      email: "manav.joshi@example.com",
+      email: "manav.joshi@gmail.com",
       class: "1",
       school: "Green Valley School",
       rollNo: "13",
@@ -144,7 +144,7 @@ export const studentsListData = [
     },
     {
       name: "Riya Kapoor",
-      email: "riya.kapoor@example.com",
+      email: "riya.kapoor@gmail.com",
       class: "5",
       school: "Blue Bell Academy",
       rollNo: "14",
@@ -155,7 +155,7 @@ export const studentsListData = [
     },
     {
       name: "Kunal Patel",
-      email: "kunal.patel@example.com",
+      email: "kunal.patel@gmail.com",
       class: "12",
       school: "Springfield High",
       rollNo: "15",
@@ -166,7 +166,7 @@ export const studentsListData = [
     },
     {
       name: "Anushka Das",
-      email: "anushka.das@example.com",
+      email: "anushka.das@gmail.com",
       class: "1",
       school: "Green Valley School",
       rollNo: "16",
@@ -177,7 +177,7 @@ export const studentsListData = [
     },
     {
       name: "Vikram Sinha",
-      email: "vikram.sinha@example.com",
+      email: "vikram.sinha@gmail.com",
       class: "5",
       school: "Blue Bell Academy",
       rollNo: "17",
@@ -188,7 +188,7 @@ export const studentsListData = [
     },
     {
       name: "Pooja Chauhan",
-      email: "pooja.chauhan@example.com",
+      email: "pooja.chauhan@gmail.com",
       class: "12",
       school: "Springfield High",
       rollNo: "18",
@@ -199,7 +199,7 @@ export const studentsListData = [
     },
     {
       name: "Aditya Nair",
-      email: "aditya.nair@example.com",
+      email: "aditya.nair@gmail.com",
       class: "1",
       school: "Green Valley School",
       rollNo: "19",
@@ -210,7 +210,7 @@ export const studentsListData = [
     },
     {
       name: "Sneha Agarwal",
-      email: "sneha.agarwal@example.com",
+      email: "sneha.agarwal@gmail.com",
       class: "5",
       school: "Blue Bell Academy",
       rollNo: "20",
@@ -221,7 +221,7 @@ export const studentsListData = [
     },
     {
       name: "Ravi Kulkarni",
-      email: "ravi.kulkarni@example.com",
+      email: "ravi.kulkarni@gmail.com",
       class: "12",
       school: "Springfield High",
       rollNo: "21",
@@ -232,7 +232,7 @@ export const studentsListData = [
     },
     {
       name: "Nisha Thakur",
-      email: "nisha.thakur@example.com",
+      email: "nisha.thakur@gmail.com",
       class: "1",
       school: "Green Valley School",
       rollNo: "22",
@@ -243,7 +243,7 @@ export const studentsListData = [
     },
     {
       name: "Harshit Jain",
-      email: "harshit.jain@example.com",
+      email: "harshit.jain@gmail.com",
       class: "5",
       school: "Blue Bell Academy",
       rollNo: "23",
@@ -254,7 +254,7 @@ export const studentsListData = [
     },
     {
       name: "Avni Bhatt",
-      email: "avni.bhatt@example.com",
+      email: "avni.bhatt@gmail.com",
       class: "12",
       school: "Springfield High",
       rollNo: "24",
@@ -265,7 +265,7 @@ export const studentsListData = [
     },
     {
       name: "Ishaan Saxena",
-      email: "ishaan.saxena@example.com",
+      email: "ishaan.saxena@gmail.com",
       class: "1",
       school: "Green Valley School",
       rollNo: "25",

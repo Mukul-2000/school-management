@@ -16,3 +16,20 @@ code {
   flex: auto;
   justify-content: center;
 }
+
+/* .offcanvas {
+  width: 100px;
+} */
+
+.nav-link {
+  color: #007bff;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.container {
+  transition: margin-left 0.3s ease;
+}

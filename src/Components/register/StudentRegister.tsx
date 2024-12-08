@@ -3,6 +3,8 @@ import { Col, Container, Form, Row } from "react-bootstrap";
 import { BsEye, BsEyeSlash } from "react-icons/bs";
 import toast from 'react-hot-toast';
 import Select from "react-select"
+import { useNavigate } from "react-router-dom";
+import moment from "moment";
 
 
 export default function StudentRegister(){
@@ -25,6 +27,8 @@ export default function StudentRegister(){
     studentName: '',
     gender: ''
   });
+
+  const navigate = useNavigate();
 
   const genderOptions = [
     {label: 'Male', value: 'male'},
@@ -58,13 +62,20 @@ export default function StudentRegister(){
   async function register(){
     setLoading(true);
 
-    console.log(studentData, "stuuuuuu")
     
     if(!studentData.email || !studentData.password || !studentData.confirmPassword || !studentData.dob || !studentData.studentName || !selectValue.value || !selectGenderValue || !studentData.rollNo || !studentData.school){
         toast.error("All fields are mandatory");
         setLoading(false);
         return
     }
+
+    const domain = studentData.email.split('@')[1]?.toLowerCase();
+    if(domain != "gmail.com"){
+        toast.error("Only gmail domain is allowed.");
+        setLoading(false);
+        return
+    }
+
     if(!passwordMatch){
         toast.error("Password Does not match");
         setLoading(false);
@@ -72,7 +83,7 @@ export default function StudentRegister(){
     }
 
 
-    toast.success("Registration Successful");
+    toast.success("Student Registration Successful");
     const studentClass = selectValue.value;
     const studentGender = selectGenderValue.value;
     const finalStudentData = {...studentData, class: studentClass, gender: studentGender};
@@ -91,11 +102,12 @@ export default function StudentRegister(){
         gender: ''
     })
     setLoading(false);
+    navigate("/login")
     return
   }
     return (
         <>
-        <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+        <div className="d-flex justify-content-center align-items-center bg-light" style={{ minHeight: '100vh' }}>
                 <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '70vh' }}>
                     <Row>
                         <h4 className="fw-bold mb-3">Student Registration</h4>
@@ -109,7 +121,7 @@ export default function StudentRegister(){
                             <Form.Control type="text" name='studentName' onChange={handleChange} placeholder="1234" value={studentData?.studentName} required/>
                         </Form.Group>
 
-                        <Form.Group>
+                        <Form.Group className="mb-3">
                             <Form.Label>
                                 Gender <span className='text-danger'>*</span>
                             </Form.Label>
@@ -119,7 +131,7 @@ export default function StudentRegister(){
                         
                         <Form.Group className="mb-3">
                             <Form.Label>Date of Birth <span className='text-danger'>*</span></Form.Label>
-                            <Form.Control type="date" name='dob' placeholder="Enter age" value={(studentData?.dob)} onChange={handleChange} />
+                            <Form.Control type="date" name='dob' placeholder="Enter age" value={(studentData?.dob)} onChange={handleChange} max={moment().subtract(5, "years").format("YYYY-MM-DD")} required/>
                         </Form.Group>
 
                         <Form.Group className="mb-3">
@@ -132,7 +144,7 @@ export default function StudentRegister(){
                             <Form.Control type="text" name='school' onChange={handleChange} placeholder="abcd" value={studentData?.school} required/>
                         </Form.Group>
 
-                        <Form.Group>
+                        <Form.Group className="mb-3">
                             <Form.Label>
                                 Class <span className='text-danger'>*</span>
                             </Form.Label>

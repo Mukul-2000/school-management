@@ -1,19 +1,20 @@
 import { Card, Col, Container, Dropdown, Form, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
 import { studentsListData } from "../../assets/students";
 import { useNavigate } from "react-router-dom";
+import { BsPeopleFill, BsPersonArmsUp, BsPersonBadgeFill } from "react-icons/bs";
 
 
 
 export default function StudentList(){
     const navigate = useNavigate();
-  
+
     return (
         <>
         <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
                 <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '70vh' }}>
                     <Row>
-                        <h4 className="mb-4">Students List</h4>
-                        {studentsListData.map((item: any, index: any) => (
+                        <h4 className="mb-4 mt-4">Students List<span>  <BsPersonBadgeFill /></span></h4>
+                        {studentsListData.length > 0 ? studentsListData.map((item: any, index: any) => (
                             <Col key={item.id} sm={12} md={4} className="mb-4">
                                 <OverlayTrigger
                                     placement="top"
@@ -23,10 +24,10 @@ export default function StudentList(){
                                     </Tooltip>
                                     }
                                 >
-                                <Card className="h-100">
+                                <Card className="h-100 shadow">
                                 <Card.Img
                                     variant="top"
-                                    src={"https://picsum.photos/150"}
+                                    src={"https://picsum.photos/140"}
                                     alt={`${item?.name} profile`}
                                     style={{ height: '150px', objectFit: 'cover' }}
                                 />
@@ -55,7 +56,7 @@ export default function StudentList(){
                                 </Card>
                                 </OverlayTrigger>
                             </Col>
-                        ))}
+                        )) : "No student found."}
                     </Row>    
                 </Container>   
         </div>

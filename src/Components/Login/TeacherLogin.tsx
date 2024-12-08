@@ -29,6 +29,14 @@ export default function TeacherLogin(){
             setLoading(false);
             return
         }
+
+        const domain = loginData.email.split('@')[1]?.toLowerCase();
+        if(domain != "gmail.com"){
+            toast.error("Only gmail domain is allowed.");
+            setLoading(false);
+            return
+        }
+        
         if(!loginData.password){
             toast.error("Please enter your password");
             setLoading(false);
@@ -57,9 +65,9 @@ export default function TeacherLogin(){
 
     return (
         <>
-        <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+        <div >
                 <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '70vh' }}>
-                    <Row>
+                    <Row className="bg-light">
                         <h4 className="fw-bold mb-3"><span></span>Teacher Sign in</h4>
                         <Form.Group className="mb-3">
                             <Form.Label>Email Address <span className='text-danger'>*</span></Form.Label>
@@ -80,7 +88,8 @@ export default function TeacherLogin(){
                             </span>
                             </div>
                         </Form.Group> 
-                        <button type="submit" className="mt-3 btn btn-primary btn-lg w-100" disabled={loading}>Sign in</button>
+                        <button type="submit" className="mt-3 btn btn-primary btn-lg w-100" disabled={loading} onClick={signIn}>Sign in</button>
+                        <button type="submit" className="mt-3 btn btn-warning btn-lg w-100" disabled={loading} onClick={() => navigate("/register")}>Not registered, Sign up now</button>
                     </Row>    
                 </Container>   
         </div>

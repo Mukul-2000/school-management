@@ -1,7 +1,7 @@
 export const teachersListData = [
     {
       name: "Rajesh Kumar",
-      email: "mukulsindhu@example.com",
+      email: "mukulsindhutest@gmail.com",
       class: ["1", "5"],
       school: "Green Valley School",
       subject: "Mathematics",
@@ -12,7 +12,7 @@ export const teachersListData = [
     },
     {
       name: "Meera Sharma",
-      email: "meera.sharma@example.com",
+      email: "meera.sharma@gmail.com",
       class: ["3", "7", "12"],
       school: "Blue Bell Academy",
       subject: "English",
@@ -23,7 +23,7 @@ export const teachersListData = [
     },
     {
       name: "Amit Verma",
-      email: "amit.verma@example.com",
+      email: "amit.verma@gmail.com",
       class: ["5", "8"],
       school: "Springfield High",
       subject: "Science",
@@ -34,7 +34,7 @@ export const teachersListData = [
     },
     {
       name: "Anjali Gupta",
-      email: "anjali.gupta@example.com",
+      email: "anjali.gupta@gmail.com",
       class: ["4", "6"],
       school: "Green Valley School",
       subject: "Social Studies",
@@ -45,7 +45,7 @@ export const teachersListData = [
     },
     {
       name: "Vikas Nair",
-      email: "vikas.nair@example.com",
+      email: "vikas.nair@gmail.com",
       class: ["1", "2"],
       school: "Blue Bell Academy",
       subject: "Hindi",
@@ -56,7 +56,7 @@ export const teachersListData = [
     },
     {
       name: "Kavita Joshi",
-      email: "kavita.joshi@example.com",
+      email: "kavita.joshi@gmail.com",
       class: ["9", "11"],
       school: "Springfield High",
       subject: "Physics",
@@ -67,7 +67,7 @@ export const teachersListData = [
     },
     {
       name: "Rahul Sinha",
-      email: "rahul.sinha@example.com",
+      email: "rahul.sinha@gmail.com",
       class: ["6", "10"],
       school: "Green Valley School",
       subject: "Chemistry",
@@ -78,7 +78,7 @@ export const teachersListData = [
     },
     {
       name: "Priya Iyer",
-      email: "priya.iyer@example.com",
+      email: "priya.iyer@gmail.com",
       class: ["3", "7"],
       school: "Blue Bell Academy",
       subject: "Biology",
@@ -89,7 +89,7 @@ export const teachersListData = [
     },
     {
       name: "Aditya Roy",
-      email: "aditya.roy@example.com",
+      email: "aditya.roy@gmail.com",
       class: ["12"],
       school: "Springfield High",
       subject: "Economics",
@@ -100,7 +100,7 @@ export const teachersListData = [
     },
     {
       name: "Nisha Patel",
-      email: "nisha.patel@example.com",
+      email: "nisha.patel@gmail.com",
       class: ["4", "8"],
       school: "Green Valley School",
       subject: "Mathematics",
@@ -111,7 +111,7 @@ export const teachersListData = [
     },
     {
       name: "Rohan Desai",
-      email: "rohan.desai@example.com",
+      email: "rohan.desai@gmail.com",
       class: ["5", "9"],
       school: "Blue Bell Academy",
       subject: "History",
@@ -122,7 +122,7 @@ export const teachersListData = [
     },
     {
       name: "Simran Kaur",
-      email: "simran.kaur@example.com",
+      email: "simran.kaur@gmail.com",
       class: ["1", "2", "3"],
       school: "Springfield High",
       subject: "Geography",
@@ -133,7 +133,7 @@ export const teachersListData = [
     },
     {
       name: "Arjun Kapoor",
-      email: "arjun.kapoor@example.com",
+      email: "arjun.kapoor@gmail.com",
       class: ["11", "12"],
       school: "Green Valley School",
       subject: "Computer Science",
@@ -144,7 +144,7 @@ export const teachersListData = [
     },
     {
       name: "Neha Mishra",
-      email: "neha.mishra@example.com",
+      email: "neha.mishra@gmail.com",
       class: ["6", "7"],
       school: "Blue Bell Academy",
       subject: "Mathematics",
@@ -155,7 +155,7 @@ export const teachersListData = [
     },
     {
       name: "Ishaan Saxena",
-      email: "ishaan.saxena@example.com",
+      email: "ishaan.saxena@gmail.com",
       class: ["10", "12"],
       school: "Springfield High",
       subject: "Physics",
@@ -166,7 +166,7 @@ export const teachersListData = [
     },
     {
       name: "Pooja Agarwal",
-      email: "pooja.agarwal@example.com",
+      email: "pooja.agarwal@gmail.com",
       class: ["8", "9"],
       school: "Green Valley School",
       subject: "Chemistry",
@@ -177,7 +177,7 @@ export const teachersListData = [
     },
     {
       name: "Vikram Reddy",
-      email: "vikram.reddy@example.com",
+      email: "vikram.reddy@gmail.com",
       class: ["4", "5"],
       school: "Blue Bell Academy",
       subject: "English",
@@ -188,7 +188,7 @@ export const teachersListData = [
     },
     {
       name: "Tanya Bhatt",
-      email: "tanya.bhatt@example.com",
+      email: "tanya.bhatt@gmail.com",
       class: ["1", "3"],
       school: "Springfield High",
       subject: "Social Studies",
@@ -199,7 +199,7 @@ export const teachersListData = [
     },
     {
       name: "Manav Gupta",
-      email: "manav.gupta@example.com",
+      email: "manav.gupta@gmail.com",
       class: ["6", "11"],
       school: "Green Valley School",
       subject: "Economics",
@@ -210,7 +210,7 @@ export const teachersListData = [
     },
     {
       name: "Riya Jain",
-      email: "riya.jain@example.com",
+      email: "riya.jain@gmail.com",
       class: ["2", "3"],
       school: "Blue Bell Academy",
       subject: "Biology",
@@ -221,7 +221,7 @@ export const teachersListData = [
     },
     {
       name: "Harish Kulkarni",
-      email: "harish.kulkarni@example.com",
+      email: "harish.kulkarni@gmail.com",
       class: ["7", "9"],
       school: "Springfield High",
       subject: "History",
@@ -232,7 +232,7 @@ export const teachersListData = [
     },
     {
       name: "Sneha Thakur",
-      email: "sneha.thakur@example.com",
+      email: "sneha.thakur@gmail.com",
       class: ["8", "10"],
       school: "Green Valley School",
       subject: "Chemistry",
@@ -243,7 +243,7 @@ export const teachersListData = [
     },
     {
       name: "Ajay Chopra",
-      email: "ajay.chopra@example.com",
+      email: "ajay.chopra@gmail.com",
       class: ["12"],
       school: "Blue Bell Academy",
       subject: "Physics",
@@ -254,7 +254,7 @@ export const teachersListData = [
     },
     {
       name: "Avni Shah",
-      email: "avni.shah@example.com",
+      email: "avni.shah@gmail.com",
       class: ["5", "6"],
       school: "Springfield High",
       subject: "Geography",
@@ -265,7 +265,7 @@ export const teachersListData = [
     },
     {
       name: "Nikhil Mehta",
-      email: "nikhil.mehta@example.com",
+      email: "nikhil.mehta@gmail.com",
       class: ["1", "2"],
       school: "Green Valley School",
       subject: "Hindi",

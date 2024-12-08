@@ -6,6 +6,7 @@ import Register from './View/Public/Register';
 import Dashboard from './View/Public/Dashboard';
 import StudentDetails from './View/Public/StudentDetails';
 import TeacherDetails from './View/Public/TeacherDetails';
+import ClassDetails from './View/Public/ClassDetails';
 
 export default function MainRouter() {
 
@@ -19,6 +20,7 @@ export default function MainRouter() {
                 <Route path="/dashboard" element={<Dashboard/>}/>
                 <Route path="/student/:id" element={<StudentDetails/>} />
                 <Route path="/teacher/:id" element={<TeacherDetails/>} />
+                <Route path="/classes" element={<ClassDetails/>} />
             </Routes>
         {/* </Router> */}
         </>
