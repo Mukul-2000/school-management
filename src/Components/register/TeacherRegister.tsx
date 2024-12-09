@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Col, Container, Form, Row, } from "react-bootstrap";
-import { BsEye, BsEyeSlash } from "react-icons/bs";
+import { BsEye, BsEyeSlash, BsPeopleFill } from "react-icons/bs";
 import toast from 'react-hot-toast';
 import Select from "react-select"
 import { useNavigate } from "react-router-dom";
@@ -108,7 +108,7 @@ export default function TeacherRegister(){
         <div className="d-flex justify-content-center align-items-center bg-light" style={{ minHeight: '100vh' }}>
                 <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '70vh' }}>
                     <Row>
-                        <h4 className="fw-bold mb-3">Teacher Registration</h4>
+                        <h4 className="fw-bold mb-3"><span><BsPeopleFill />  </span>Teacher Registration</h4>
                         <Form.Group className="mb-3">
                             <Form.Label>Email Address <span className='text-danger'>*</span></Form.Label>
                             <Form.Control type="email" name='email' onChange={handleChange} placeholder="example@domain" value={teacherData?.email} required/>

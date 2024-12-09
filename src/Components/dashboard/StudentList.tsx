@@ -1,7 +1,7 @@
 import { Card, Col, Container, Dropdown, Form, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
 import { studentsListData } from "../../assets/students";
 import { useNavigate } from "react-router-dom";
-import { BsPeopleFill, BsPersonArmsUp, BsPersonBadgeFill } from "react-icons/bs";
+import { BsEyeFill, BsPeopleFill, BsPersonArmsUp, BsPersonBadgeFill } from "react-icons/bs";
 
 
 
@@ -11,6 +11,9 @@ export default function StudentList(){
     return (
         <>
         <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+            <Card className="h-100 shadow" style={{backgroundColor: "rgba(255, 255, 255, 0.2)"}}>
+                <Card.Body style={{  
+            height: "120vh", overflowY: 'auto',  }}>
                 <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '70vh' }}>
                     <Row>
                         <h4 className="mb-4 mt-4">Students List<span>  <BsPersonBadgeFill /></span></h4>
@@ -44,7 +47,7 @@ export default function StudentList(){
                                             <i className="bi bi-three-dots"></i>
                                         </Dropdown.Toggle>
                                         <Dropdown.Menu>
-                                            <Dropdown.Item onClick={() => navigate("/student/"+item?.id)}>View Profile</Dropdown.Item>
+                                            <Dropdown.Item onClick={() => navigate("/student/"+item?.id)}><span><BsEyeFill/> </span>View Profile</Dropdown.Item>
                                         </Dropdown.Menu>
                                         </Dropdown>
                                     </div>
@@ -58,7 +61,9 @@ export default function StudentList(){
                             </Col>
                         )) : "No student found."}
                     </Row>    
-                </Container>   
+                </Container>  
+                </Card.Body> 
+              </Card> 
         </div>
         </>
     )

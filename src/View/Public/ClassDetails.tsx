@@ -5,7 +5,7 @@ import { teachersListData } from '../../assets/teachers';
 import StudentList from '../../Components/dashboard/StudentList';
 import TeacherList from '../../Components/dashboard/TeacherList';
 import { useNavigate } from 'react-router-dom';
-import { BsPeopleFill, BsPerson, BsPersonBadge, BsPersonBadgeFill, BsPersonCheck, BsPersonFillDash } from 'react-icons/bs';
+import { BsBookmarkCheckFill, BsBookmarkStar, BsCheck, BsCheck2, BsEyeFill, BsPeopleFill, BsPerson, BsPersonBadge, BsPersonBadgeFill, BsPersonCheck, BsPersonFillDash } from 'react-icons/bs';
 
 
 export default function ClassDetails() {
@@ -45,8 +45,16 @@ export default function ClassDetails() {
 
 
     return (
-        <Container fluid>
-            <Row>
+        <>
+        <div style={{
+            backgroundImage: `url("/school3.jpg")`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            minHeight: "100vh"
+        }}>
+        <Container fluid >
+            <Row >
                 <Col md={3} className="bg-light vh-100" style={{ borderRight: '1px solid #ddd' }}>
                     <h4 className="p-3">Classes</h4>
                     <ListGroup variant="flush">
@@ -101,8 +109,8 @@ export default function ClassDetails() {
                                                             <i className="bi bi-three-dots"></i>
                                                         </Dropdown.Toggle>
                                                         <Dropdown.Menu>
-                                                            <Dropdown.Item onClick={() => navigate("/student/"+item?.id)}>View Profile</Dropdown.Item>
-                                                            <Dropdown.Item >Enable</Dropdown.Item>
+                                                            <Dropdown.Item onClick={() => navigate("/student/"+item?.id)}><span><BsEyeFill/> </span>View Profile</Dropdown.Item>
+                                                            <Dropdown.Item ><span><BsCheck2/> </span>Enable</Dropdown.Item>
                                                         </Dropdown.Menu>
                                                         </Dropdown>
                                                     </div>
@@ -156,7 +164,8 @@ export default function ClassDetails() {
                                                             <i className="bi bi-three-dots"></i>
                                                         </Dropdown.Toggle>
                                                         <Dropdown.Menu>
-                                                            <Dropdown.Item onClick={() => navigate("/teacher/"+item?.id)}>View Profile</Dropdown.Item>
+                                                            <Dropdown.Item onClick={() => navigate("/teacher/"+item?.id)}><span><BsEyeFill/> </span>View Profile</Dropdown.Item>
+                                                            <Dropdown.Item ><span><BsCheck2/> </span>Enable</Dropdown.Item>
                                                         </Dropdown.Menu>
                                                         </Dropdown>
                                                     </div>
@@ -180,5 +189,7 @@ export default function ClassDetails() {
                 </Col>
             </Row>
         </Container>
+        </div>
+        </>
     );
 }

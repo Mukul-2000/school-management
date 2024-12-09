@@ -1,7 +1,7 @@
 import { Card, Col, Container, Dropdown, Form, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
 import { teachersListData } from "../../assets/teachers";
 import { useNavigate } from "react-router-dom";
-import { BsPeopleFill } from "react-icons/bs";
+import { BsEyeFill, BsPeopleFill } from "react-icons/bs";
 
 
 export default function TeacherList(){
@@ -11,6 +11,9 @@ export default function TeacherList(){
     return (
         <>
         <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+        <Card className="h-100 shadow" style={{backgroundColor: "rgba(255, 255, 255, 0.2)"}}>
+                <Card.Body style={{  
+            height: "120vh", overflowY: 'auto' }}>
                 <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '70vh' }}>
                 <Row>
                         <h4 className="mb-4 mt-4">Teachers List<span>  <BsPeopleFill /></span></h4>
@@ -44,7 +47,7 @@ export default function TeacherList(){
                                             <i className="bi bi-three-dots"></i>
                                         </Dropdown.Toggle>
                                         <Dropdown.Menu>
-                                            <Dropdown.Item onClick={() => navigate("/teacher/"+item?.id)}>View Profile</Dropdown.Item>
+                                            <Dropdown.Item onClick={() => navigate("/teacher/"+item?.id)}><span><BsEyeFill/> </span>View Profile</Dropdown.Item>
                                         </Dropdown.Menu>
                                         </Dropdown>
                                     </div>
@@ -59,6 +62,8 @@ export default function TeacherList(){
                         )) : "No Teacher found."}
                     </Row>
                 </Container>   
+                </Card.Body>
+                </Card>
         </div>
         </>
     )

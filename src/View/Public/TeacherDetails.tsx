@@ -16,10 +16,20 @@ export default function TeacherDetails(){
 
     return (
         <>
+        <div style={{
+                backgroundImage: `url("/school3.jpg")`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                minHeight: "100vh"
+            }}>
             <Container className="py-4">
-                        <Button className="btn-primary mb-3" onClick={() => navigate(-1)}>Back</Button>
+                    <div className="d-flex justify-content-between align-items-center">
+
                         <h4 className="mb-4">Teacher Details<span>  <BsPeopleFill /></span></h4> 
-                        <Card className="w-100 shadow">
+                        <Button className="btn-primary mb-3" onClick={() => navigate(-1)}>Back</Button>
+                    </div>
+                        <Card className="w-100 shadow" style={{backgroundColor: "rgba(255, 255, 255, 0.2)"}}>
                         <Card.Img
                             variant="top"
                             src={"https://picsum.photos/300"}
@@ -41,7 +51,8 @@ export default function TeacherDetails(){
                         </Card.Body>
                     
                    </Card>
-            </Container>   
+            </Container>  
+            </div> 
         </>
     )
 }
